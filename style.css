@@ -217,11 +217,13 @@ section > div > p:nth-of-type(2) {
     border: 1px solid #56CAB1;
     margin-top: 8px;
 }
-.content span{
+
+.content span {
     margin-left: 3px;
     text-decoration: line-through;
 }
-.content svg{
+
+.content svg {
     margin: 0 10px 0 10px;
 }
 
@@ -285,11 +287,13 @@ section > div > p:nth-of-type(2) {
     font-weight: 700;
     line-height: 63px;
 }
-.monkey-cards{
+
+.monkey-cards {
     width: 100%;
     position: relative;
     z-index: -10;
 }
+
 .card-front {
     width: 375px;
     height: 507px;
@@ -297,6 +301,7 @@ section > div > p:nth-of-type(2) {
     margin: 147px 0 74px auto;
     border-radius: 10px;
 }
+
 .card-front img {
     width: 374px;
     height: 358px;
@@ -310,16 +315,19 @@ section > div > p:nth-of-type(2) {
     margin: 12px 0 0 29px;
     text-shadow: -2px -2px 0 #02061A, 2px -2px 0 #02061A, -2px 2px 0 #02061A, 2px 2px 0 #02061A;
 }
-.card-front p{
+
+.card-front p {
     color: white;
     font-size: 27px;
     font-weight: 700;
     line-height: 34px;
 }
+
 .card-front span, .card-behind span {
     color: #23263C;
 }
-.free p{
+
+.free p {
     font-size: 35px;
     font-weight: 700;
     line-height: 44px;
@@ -330,17 +338,20 @@ section > div > p:nth-of-type(2) {
     justify-content: space-around;
     align-items: center;
 }
-.free{
+
+.free {
     display: flex;
     align-items: center;
     margin: 15px 0 0 14px;
 }
-.free button{
+
+.free button {
     width: 147px;
     height: 51px;
     margin-left: 20px;
 }
-.card-front button{
+
+.card-front button {
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -353,7 +364,8 @@ section > div > p:nth-of-type(2) {
     box-shadow: inset 0 0 0 2px black;
     text-shadow: -1px -1px 0 #02061A, 1px -1px 0 #02061A, -1px 1px 0 #02061A, 1px 1px 0 #02061A;
 }
-.card-behind{
+
+.card-behind {
     top: 60px;
     right: 260px;
     background: #89828280;
@@ -365,13 +377,15 @@ section > div > p:nth-of-type(2) {
     position: absolute;
     transform: rotate(-25.34deg);
 }
-.card-behind img{
+
+.card-behind img {
     position: absolute;
     transform: rotate(25.34deg);
     border-radius: 5px;
     left: -48px;
     top: -65px;
 }
+
 .card-behind h5 {
     position: absolute;
     top: 340px;
@@ -382,12 +396,14 @@ section > div > p:nth-of-type(2) {
     margin: 12px 0 0 29px;
     text-shadow: -2px -2px 0 #02061A, 2px -2px 0 #02061A, -2px 2px 0 #02061A, 2px 2px 0 #02061A;
 }
-.card-behind .position{
+
+.card-behind .position {
     position: absolute;
     top: 400px;
     left: 10px;
 }
-.testmonial{
+
+.testmonial {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -397,7 +413,8 @@ section > div > p:nth-of-type(2) {
     color: white;
     text-align: center;
 }
-.testmonial h4{
+
+.testmonial h4 {
     margin-bottom: 14px;
     font-size: 30px;
     font-weight: 700;
@@ -405,21 +422,24 @@ section > div > p:nth-of-type(2) {
     text-align: left;
     color: #5BD2BF;
 }
-.testmonial p{
+
+.testmonial p {
     font-size: 60px;
     font-weight: 700;
     line-height: 75px;
     text-align: center;
     color: white;
 }
-.founders{
+
+.founders {
     width: 1063px;
     height: 360px;
     margin: 147px auto 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.card-person{
+
+.card-person {
     position: relative;
     width: 345px;
     height: 360px;
@@ -431,27 +451,31 @@ section > div > p:nth-of-type(2) {
     align-items: center;
     text-align: center;
 }
-.card-person img{
+
+.card-person img {
     filter: grayscale(100%);
     left: 95px;
     top: -75px;
     border-radius: 50%;
     position: absolute;
 }
-.card-person h3{
+
+.card-person h3 {
     margin: 8px 0 27px 0;
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
     color: white;
 }
-.card-person p{
+
+.card-person p {
     font-size: 20px;
     font-weight: 700;
     line-height: 25px;
     color: white;
 }
-.gradient{
+
+.gradient {
     width: 1063px;
     height: 378px;
     border-radius: 20px;
@@ -461,7 +485,8 @@ section > div > p:nth-of-type(2) {
     align-items: center;
     flex-direction: column;
 }
-.gradient h4{
+
+.gradient h4 {
     width: 312px;
     height: 180px;
     font-size: 60px;
@@ -471,7 +496,8 @@ section > div > p:nth-of-type(2) {
     color: white;
     margin: 24px 0 39px 0;
 }
-.gradient button{
+
+.gradient button {
     width: 344px;
     height: 85px;
     border-radius: 50px;
@@ -483,37 +509,44 @@ section > div > p:nth-of-type(2) {
     background: #000000;
     color: white;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-between;
     margin: 260px auto 0 auto;
     width: 1063px;
     height: 351px;
 }
-footer div h5{
+
+footer div h5 {
     font-size: 25px;
     font-weight: 700;
     line-height: 31px;
     text-align: left;
     color: white;
 }
-.line{
+
+.line {
     text-decoration: line-through;
 }
-footer ul{
+
+footer ul {
     list-style-type: none;
 }
-footer:first-of-type(div) h5{
+
+footer:first-of-type(div) h5 {
     list-style-type: none;
 }
-footer li{
+
+footer li {
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
     color: white;
     margin-top: 22px;
 }
-footer .btn-email{
+
+footer .btn-email {
     background: #3B7C70;
     width: 253px;
     height: 60px;
@@ -522,14 +555,16 @@ footer .btn-email{
     align-items: center;
     justify-content: space-between;
 }
-.btn-email p{
+
+.btn-email p {
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
     color: white;
     margin-left: 12px;
 }
-.btn-email button{
+
+.btn-email button {
     width: 100px;
     height: 58px;
     border-radius: 50px;
