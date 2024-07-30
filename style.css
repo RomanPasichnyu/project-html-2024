@@ -217,6 +217,13 @@ section > div > p:nth-of-type(2) {
     border: 1px solid #56CAB1;
     margin-top: 8px;
 }
+.content span{
+    margin-left: 3px;
+    text-decoration: line-through;
+}
+.content svg{
+    margin: 0 10px 0 10px;
+}
 
 .content .btn-border {
     width: 126px;
@@ -230,7 +237,7 @@ section > div > p:nth-of-type(2) {
 }
 
 .bottom {
-    margin-top: 34px;
+    margin-top: 40px;
     width: 521px;
     height: 132px;
     border-radius: 18px;
@@ -250,19 +257,18 @@ section > div > p:nth-of-type(2) {
 }
 
 .cards {
-    width: 1059px;
+    width: 1060px;
     height: 728px;
     margin: 74px auto 0 auto;
     display: flex;
 }
 
-.cards .text {
+.cards h3 {
     width: 465px;
     height: 212px;
     font-size: 60px;
     font-weight: 700;
     line-height: 75px;
-    text-align: left;
     color: white;
     margin-top: 361px;
 }
@@ -289,6 +295,7 @@ section > div > p:nth-of-type(2) {
     height: 507px;
     background: #89828280;
     margin: 147px 0 74px auto;
+    border-radius: 10px;
 }
 .card-front img {
     width: 374px;
@@ -309,7 +316,7 @@ section > div > p:nth-of-type(2) {
     font-weight: 700;
     line-height: 34px;
 }
-.card-front span{
+.card-front span, .card-behind span {
     color: #23263C;
 }
 .free p{
@@ -347,17 +354,16 @@ section > div > p:nth-of-type(2) {
     text-shadow: -1px -1px 0 #02061A, 1px -1px 0 #02061A, -1px 1px 0 #02061A, 1px 1px 0 #02061A;
 }
 .card-behind{
-    top: 30px;
-    right: 245px;
+    top: 60px;
+    right: 260px;
     background: #89828280;
-    width: 382.82px;
-    height: 493.94px;
-    border-radius: 5px;
+    width: 382px;
+    height: 466px;
+    border-radius: 10px;
     z-index: -1;
     color: white;
     position: absolute;
     transform: rotate(-25.34deg);
-
 }
 .card-behind img{
     position: absolute;
@@ -381,10 +387,161 @@ section > div > p:nth-of-type(2) {
     top: 400px;
     left: 10px;
 }
-h4{
+.testmonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 427px;
     margin: 243px auto 0 auto;
     color: white;
+    text-align: center;
 }
+.testmonial h4{
+    margin-bottom: 14px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    color: #5BD2BF;
+}
+.testmonial p{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;
+    color: white;
+}
+.founders{
+    width: 1063px;
+    height: 360px;
+    margin: 147px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card-person{
+    position: relative;
+    width: 345px;
+    height: 360px;
+    border-radius: 10px;
+    background: #24293F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-person img{
+    filter: grayscale(100%);
+    left: 95px;
+    top: -75px;
+    border-radius: 50%;
+    position: absolute;
+}
+.card-person h3{
+    margin: 8px 0 27px 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color: white;
+}
+.card-person p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: white;
+}
+.gradient{
+    width: 1063px;
+    height: 378px;
+    border-radius: 20px;
+    margin: 208px auto 0 auto;
+    background: linear-gradient(96.97deg, #1F143B -19.45%, #3C8273 103.56%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gradient h4{
+    width: 312px;
+    height: 180px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    margin: 24px 0 39px 0;
+}
+.gradient button{
+    width: 344px;
+    height: 85px;
+    border-radius: 50px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    border: none;
+    background: #000000;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 260px auto 0 auto;
+    width: 1063px;
+    height: 351px;
+}
+footer div h5{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+    color: white;
+}
+.line{
+    text-decoration: line-through;
+}
+footer ul{
+    list-style-type: none;
+}
+footer:first-of-type(div) h5{
+    list-style-type: none;
+}
+footer li{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: white;
+    margin-top: 22px;
+}
+footer .btn-email{
+    background: #3B7C70;
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-email p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: white;
+    margin-left: 12px;
+}
+.btn-email button{
+    width: 100px;
+    height: 58px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: white;
+    border: none;
+    background: #262E48;
+}
+
+
 
 
 
