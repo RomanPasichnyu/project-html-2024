@@ -575,6 +575,13 @@ footer .btn-email {
     border: none;
     background: #262E48;
 }
+.underline{
+    margin: 0 auto;
+    width: 1440px;
+    height: 9px;
+    border-radius: 20px;
+    background: linear-gradient(96.97deg, #1F143B -19.45%, #3C8273 103.56%);
+}
 
 
 
